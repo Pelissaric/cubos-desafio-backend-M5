@@ -5,12 +5,15 @@ Prazo: 13/12/2023 - Aluna: Pelissaric - Turma: Ifood B2B T09
 
 
 Seja bem-vindo(a) ao desafio individual do Módulo 5.
+
 Sua tarefa como desenvolvedor(a) será criar uma API para um PDV (Frente de Caixa) para pequenos comércios.
+
 O PDV deverá permitir aos funcionários do comércio, dentre outras coisas (listadas mais abaixo), cadastrarem produtos e pedidos.
 
 **Importante 1: Sempre que a validação de uma requisição falhar, responda com código de erro e mensagem adequada à situação, ok?**
 
 **Importante 2: Para endpoints de cadastro/atualização os objetos de requisição devem conter as propriedades equivalentes as colunas das tabelas.**
+
 **Exemplo:**
 ```javascript
 // Corpo da requisição para cadastro de usuário (body)
@@ -20,14 +23,19 @@ O PDV deverá permitir aos funcionários do comércio, dentre outras coisas (lis
     "senha": "jose"
 }
 ```
+
 **ATENÇÃO: Todos os endpoints deverão atender os requisitos citados acima.**
+
 ## **Banco de dados**
 Você precisa criar um Banco de Dados PostgreSQL chamado `pdv`.
+
 **IMPORTANTE: Deverá ser criado no projeto um arquivo .sql contendo os comandos de criação das tabelas e colunas.**
+
 ## **Requisitos obrigatórios**
 -   A API a ser criada deverá acessar o banco de dados a ser criado, `pdv`, para persistir e manipular os dados.
 -   O campo `id` das tabelas no banco de dados deve ser auto incremento, chave primária e não deve permitir edição uma vez criado.
 -   Qualquer valor monetário deverá ser representado em centavos (Ex.: R$ 10,00 reais = 1000)
+  
 ## **Status Codes**
 Abaixo, listamos os possíveis **_status codes_** esperados como resposta da API.
 ```javascript
@@ -42,8 +50,10 @@ Abaixo, listamos os possíveis **_status codes_** esperados como resposta da API
 ```
 - ## Efetuar deploy da aplicação
 Fazer deploy do projeto e disponibilizar a URL.
+
 - ## Banco de Dados
 Crie as seguintes tabelas e colunas abaixo: 
+
 **ATENÇÃO! Os nomes das tabelas e das colunas a serem criados devem seguir exatamente os nomes listados abaixo.**
 -   usuarios
     -   id (chave primária)
@@ -67,7 +77,8 @@ Crie as seguintes tabelas e colunas abaixo:
     -   pedido_id
     -   produto_id
     -   quantidade_produto
-- ## Cadastrar usuário
+      
+ ## Cadastrar usuário
 #### `POST` `/usuario`
 Essa é a rota que será utilizada para cadastrar um novo usuário no sistema.
 Após o cadastro, o usuário deve receber um e-mail de boas-vindas.
