@@ -93,6 +93,7 @@ Critérios de aceite:
     - Deverá ser enviado ao usuário um e-mail de boas-vindas.
 - ## Efetuar login do usuário
 #### `POST` `/login`
+
 Essa é a rota que permite o usuário cadastrado realizar o login no sistema.
 Critérios de aceite:
     - Validar se o e-mail e a senha estão corretos para o usuário em questão.
