@@ -5,9 +5,13 @@ Prazo: 13/12/2023 - Aluna: Pelissaric - Turma: Ifood B2B T09
 
 
 Seja bem-vindo(a) ao desafio individual do Módulo 5.
+
 Sua tarefa como desenvolvedor(a) será criar uma API para um PDV (Frente de Caixa) para pequenos comércios.
+
 O PDV deverá permitir aos funcionários do comércio, dentre outras coisas (listadas mais abaixo), cadastrarem produtos e pedidos.
+
 **Importante 1: Sempre que a validação de uma requisição falhar, responda com código de erro e mensagem adequada à situação, ok?**
+
 **Importante 2: Para endpoints de cadastro/atualização os objetos de requisição devem conter as propriedades equivalentes as colunas das tabelas.**
 **Exemplo:**
 ```javascript
